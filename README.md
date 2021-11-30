@@ -9,7 +9,7 @@ Ils sont grandement inspirés des [cours d'Ariane Pinche](https://github.com/Ari
 | Séance 2  | Initiation à l'édition scientifique numérique. Adapter son schéma de modélisation de données à son édition numérique. |
 | Séance 3  | Interroger et transformer des données en XML-TEI. Initiation à XPath et XSLT. |
 
-## Consignes et barèmes de l'évaluation finale
+## Consignes et barèmes de l'évaluation finale (date limite de rendu : 17/01/2022)
 
 Proposer un encodage en XML-TEI adapté à votre corpus. L'extrait choisi doit atteindre une longueur de 1500 mots environ et provenir d’une source de son choix, si possible en lien avec son mémoire de recherche. 
 
