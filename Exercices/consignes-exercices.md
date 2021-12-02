@@ -23,16 +23,16 @@ Affiner le schéma :
 Pour chaque question plusieures réponses sont possibles, essayez à chaque fois de réfléchir aux solutions les plus elliptiques. 
 
 - Poème *Bretagne* de José-Maria de Heredia :
-    - Indiquer le chemin XPath vers les vers des deux quatrains.
-    - Indiquer le chemin XPath vers le premier vers du premier tercet.
+    - Indiquer le chemin XPath de l'élément racine vers les vers des deux quatrains.
+    - Indiquer le chemin XPath de l'élément racine vers le premier vers du premier tercet.
 
 - *Notre-Dame de Paris* de Victor Hugo :
-    - Indiquer le chemin XPath vers la mention de la licence de la source numérique du texte.
-    - Indiquer le chemin XPath vers les prises de paroles de Quasimodo dans l'extrait encodé.
+    - Indiquer le chemin XPath de l'élément racine vers la mention de la licence de la source numérique du texte.
+    - Indiquer le chemin XPath de l'élément racine vers les prises de paroles de Quasimodo dans l'extrait encodé.
     
 - *L’Île des esclaves* de Marivaux :
-    - Indiquer le chemin XPath vers la liste des personnages.
-    - Indiquer le chemin XPath vers la première réplique de la scène 2 de l'acte I. 
+    - Indiquer le chemin XPath de l'élément racine vers la liste des personnages.
+    - Indiquer le chemin XPath de l'élément racine vers la première réplique de la scène 2 de l'acte I. 
 
 ### Manipulation d'XSLT
 
