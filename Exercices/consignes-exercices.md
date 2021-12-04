@@ -40,7 +40,7 @@ Pour chaque question plusieures réponses sont possibles, essayez à chaque fois
     - Créer une nouveau document XML. Ajouter l'attribut `type` avec la valeur `entrance` à la première didascalie de la scène 2 de l'acte I. Cf. [Teiguidelines](https://tei-c.org/release/doc/tei-p5-doc/fr/html/ref-stage.html) avec valeurs possibles de l'attribut `type` de l'élément `stage`.
 
 - Poème *Bretagne* de José-Maria de Heredia :
-    - Créer une nouveau document XML. Appliquer les mêmes règles pour les enfants du `<lg>` de niveau 1 (`@type="sonnet"`), copier les nœuds `<lg>`de niveau 2 (uniquement les nœuds), puis copier l'intégralité des `<l>`et le texte qui est associé.
+    - Créer une nouveau document XML. Appliquer les mêmes règles pour les enfants du `<lg>` avec `@type="sonnet"`, copier le nœud `<lg>`de niveau 2 (uniquement le nœud), puis copier l'intégralité des `<l>`et le texte qui est associé.
     - Créer une nouveau document XML. Créer une règle qui permet d'associer un nombre à chaque vers, selon leur ordre d'apparition. 
 
 - *Notre-Dame de Paris* de Victor Hugo :
