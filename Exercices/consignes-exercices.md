@@ -43,8 +43,5 @@ Pour chaque question plusieures réponses sont possibles, essayez à chaque fois
     - Créer une nouveau document XML. Appliquer les mêmes règles pour les enfants du `<lg>` avec `@type="sonnet"`, copier le nœud `<lg>`de niveau 2 (uniquement le nœud), puis copier l'intégralité des `<l>`et le texte qui est associé.
     - Créer une nouveau document XML. Créer une règle qui permet d'associer un nombre à chaque vers, selon leur ordre d'apparition. 
 
-- *Notre-Dame de Paris* de Victor Hugo :
-    - Générer un document HTML en sortie. Créer une condition qui permet d'afficher les noms des personnes indexés en bleu dans le document de sortie, et les mentions de lieux indexés en orange. 
-
 
 
