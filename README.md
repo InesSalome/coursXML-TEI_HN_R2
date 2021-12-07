@@ -24,6 +24,12 @@ Proposer un encodage en XML-TEI adapté à votre corpus. L'extrait choisi doit a
 	* À partir de votre ODD, générer la documentation HTML de votre projet :
 	  * Présenter en introduction votre projet et ses exploitations possibles (/4) ;
 	  * Documenter le fonctionnement de votre encodage et vos choix de balises (/3).
+	
+Vous avez jusqu'au 17 janvier pour envoyer par mail un dossier contenant :
+- Votre texte encodé dans au format XML ;
+- Votre documenation (ODD) au format XML pour vérifier l'écriture de contraintes au sein du schéma ;
+- Votre documentation (ODD) rédigée et transformée au format HTML ;
+- Votre schéma au format RNG (généré dans un dossier `out`), schéma associé à votre texte encodé.
 
 ## Guides et tutoriels indispensables
 
