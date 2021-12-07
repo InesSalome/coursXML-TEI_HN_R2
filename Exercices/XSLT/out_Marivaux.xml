@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bretagne</title>
+            <author>Heredia, José-Maria de</author>
+         </titleStmt>
+         <publicationStmt><!-- Description de la source du texte à encoder. -->
+            <distributor facs="https://www.poetica.fr/poeme-1495/jose-maria-de-heredia-bretagne/">Poetica</distributor>
+            <availability default="false">
+               <licence target="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">Licence
+                  Creative Commons Attribution-partage dans les mêmes conditions</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl default="false" status="draft">
+               <title type="main">Les Trophées</title>
+               <author>
+                  <forename full="yes">José-Maria de</forename>
+                  <surname full="yes">Heredia</surname>
+               </author>
+               <publisher>A. Lemerre</publisher>
+               <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k65694482">Bibliothèque
+                  nationale de France</distributor>
+               <pubPlace>Paris</pubPlace>
+               <date instant="false">1893</date>
+               <biblScope unit="volume" n="1"/>
+               <biblScope unit="section" n="10">LA NATURE ET LE RÊVE</biblScope>
+               <biblScope unit="poeme" n="7">Bretagne</biblScope>
+               <biblScope unit="page" n="140">p.140</biblScope>
+               <availability default="false">
+                  <licence>Domaine public</licence>
+               </availability>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <lg>
+            <lg>
+               <l part="N">L’ajonc fleurit et la bruyère est déjà rose.</l>
+               <l part="N">La terre des vieux clans, des nains et des démons,</l>
+               <l part="N">&#x2028;Ami, te garde encor, sur le granit des monts,</l>
+               <l part="N">L’homme immobile auprès de l’immuable chose.</l>
+            </lg>
+         </lg>
+      </body>
+   </text>
+</TEI>
