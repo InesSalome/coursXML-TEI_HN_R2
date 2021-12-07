@@ -1,0 +1,37 @@
+# Poème Bretagne de José-Maria de Heredia :
+
+- Indiquer le chemin XPath vers les vers des deux quatrains.
+
+TEI/text/body/lg/lg[@type='quatrain']
+//lg[@type='quatrain']
+
+- Indiquer le chemin XPath vers le premier vers du premier tercet.
+
+TEI/text/body/lg/lg/lg[@type='tercet'][1]/l[1]
+//lg[@type='tercet'][1]/l[1]
+
+
+# Notre-Dame de Paris de Victor Hugo :
+
+- Indiquer le chemin XPath vers la mention de la licence de la source numérique du texte.
+
+TEI/teiHeader/fileDesc/publicationStmt/availability/licence
+//publicationStmt/availability/licence
+
+Indiquer le chemin XPath vers les prises de paroles de Quasimodo dans l'extrait encodé.
+
+TEI/text/body/div/div/p/said[@who='#Quasimodo']
+//p/said[@who='#Quasimodo']
+
+
+# L’Île des esclaves de Marivaux :
+
+- Indiquer le chemin XPath vers la liste des personnages.
+
+TEI/text/front/castList
+//castList
+
+- Indiquer le chemin XPath vers la première réplique de la scène 2 de l'acte I.
+
+TEI/text/body/div[@type='act'][@n='1']/div[@type='scene'][@n='2']/sp[1]/p
+//div[@type='act'][@n='1']/div[@type='scene'][@n='2']/sp[1]/p
