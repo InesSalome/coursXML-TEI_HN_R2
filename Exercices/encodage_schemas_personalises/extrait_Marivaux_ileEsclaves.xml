@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/odd_Marivaux.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>L'Île des esclaves</title>
+            <author>Marivaux, Pierre de</author>
+            <respStmt>
+               <resp>Encodage réalisé dans le cadre du cours Édition électronique du master
+                  Humanités numériques de Rennes 2.</resp>
+               <persName>
+                  <forename>Gwenaëlle</forename>
+                  <surname>Patat</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Libre Théâtre</publisher>
+            <distributor
+               facs="https://libretheatre.fr/wp-content/uploads/2016/07/lile_des_esclaves_Marivaux_LT.pdf"
+               >Libre Théâtre</distributor>
+            <availability>
+               <licence>Domaine public</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title type="main">L'Île des esclaves</title>
+                  <title type="subtitle">Comédie en un acte, representée pour la premiere fois par
+                     les Comédiens italiens du Roy, le lundy 5 mars 1725.</title>
+                  <author><forename>Pierre</forename>
+                     <surname>Marivaux</surname></author>
+                  <editor>Pissot, Noël</editor>
+                  <editor>Delormel, Pierre</editor>
+                  <editor>Flahaut, François</editor>
+               </titleStmt>
+               <publicationStmt>
+                  <publisher>Noel Pissot, quay des Augustins, à la descente du Pont-Neuf, à la Croix
+                     d'or</publisher>
+                  <publisher>Pierre Delormel, ruë du Foin, à Sainte-Geneviéve</publisher>
+                  <publisher>Franc̜ois Flahault, quay des Augustins, au coin de la ruë Pavée, au Roy
+                     de Portugal</publisher>
+                  <date>1725</date>
+                  <pubPlace>Paris</pubPlace>
+                  <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k5754427b">Bibliothèque
+                     nationale de France</distributor>
+                  <availability>
+                     <licence>Domaine public</licence>
+                  </availability>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Avec approbation et privilege du Roy</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <castList>
+            <castItem xml:id="Iphicrate">Iphicrate.</castItem>
+            <castItem xml:id="Arlequin">Arlequin.</castItem>
+            <castItem xml:id="Eurphrosine">Euphrosine.</castItem>
+            <castItem xml:id="Cleanthis">Cléanthis.</castItem>
+            <castItem xml:id="Trivelin">Trivelin.</castItem>
+            <castItem xml:id="habitants">Des habitants de l'île.</castItem>
+         </castList>
+         <set>
+            <p>La scène est dans l'île des Esclaves</p>
+         </set>
+      </front>
+      <body>
+         <div type="act" n="1">
+            <div type="scene" n="1"/>
+            <div type="scene" n="2">
+               <head>Scène II.</head>
+               <stage>TRIVELIN, AVEC CINQ OU SIX INSULAIRES, ARRIVE CONDUISANT UNE DAME ET LA
+                  SUIVANTE, ET ILS ACCOURENT À IPHICRATE QU'ILS VOIENT L'ÉPÉE À LA MAIN.</stage>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN</speaker>
+                  <stage>, faisant saisir et désarmer Iphicrate par ses gens.</stage>
+                  <p>Arrêtez, que voulez-vous faire ?</p>
+               </sp>
+               <sp who="#Iphicrate">
+                  <speaker>IPHICRATE.</speaker>
+                  <p>Punir l'insolence de mon esclave.</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN.</speaker>
+                  <p>Votre esclave ? Vous vous trompez, et l'on vous apprendra à corriger vos
+                     termes. Il prend l'épée d'Iphicrate et la donne à Arlequin. Prenez cette épée,
+                     mon camarade, elle est à vous.</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p>Que le ciel vous tienne gaillard, brave camarade que vous êtes !</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN.</speaker>
+                  <p>Comment vous appelez-vous ?</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p> Est-ce mon nom que vous demandez ?</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>>TRIVELIN.</speaker>
+                  <p>Oui vraiment.</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p>Je n'en ai point, mon camarade.</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN.</speaker>
+                  <p>Quoi donc, vous n'en avez pas ?</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p>Non, mon camarade ; je n'ai que des sobriquets qu'il m'a donnés ; il m'appelle
+                     quelquefois Arlequin, quelquefois Hé.</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN.</speaker>
+                  <p>Hé ! Le terme est sans façon ; je reconnais ces Messieurs à de pareilles
+                     licences. Et lui, comment s'appelle-t-il ?</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p>Oh, diantre ! Il s'appelle par un nom, lui ; c'est le seigneur Iphicrate.</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN.</speaker>
+                  <p>Eh bien ! Changez de nom à présent ; soyez le seigneur Iphicrate à votre tour ;
+                     et vous, Iphicrate, appelez-vous Arlequin, ou bien Hé.</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN</speaker>
+                  <stage>, sautant de joie, à son maître.</stage>
+                  <p>Oh ! Oh ! Que nous allons rire, seigneur Hé !</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN</speaker>
+                  <stage>, à Arlequin.</stage>
+                  <p>Souvenez-vous en prenant son nom, mon cher ami, qu'on vous le donne bien moins
+                     pour réjouir votre vanité, que pour le corriger de son orgueil.</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p>Oui, oui, corrigeons, corrigeons !</p>
+               </sp>
+               <sp who="#Iphicrate">
+                  <speaker>IPHICRATE</speaker>
+                  <stage>, regardant Arlequin.</stage>
+                  <p>Maraud !</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p>Parlez donc, mon bon ami, voilà encore une licence qui lui prend ; cela est-il
+                     du jeu ?</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN,</speaker>
+                  <stage>à Arlequin.</stage>
+                  <p>Dans ce moment-ci, il peut vous dire tout ce qu'il voudra.</p>
+                  <stage>À Iphicrate.</stage>
+                  <p>Arlequin, votre aventure vous afflige, et vous êtes outré contre Iphicrate et
+                     contre nous. Ne vous gênez point, soulagez-vous par l'emportement le plus vif ;
+                     traitez-le de misérable, et nous aussi ; tout vous est permis à présent ; mais
+                     ce moment-ci passé, n'oubliez pas que vous êtes Arlequin, que voici Iphicrate,
+                     et que vous êtes auprès de lui ce qu'il était auprès de vous : ce sont là nos
+                     lois, et ma charge dans la république est de les faire observer en ce
+                     canton-ci.</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p>Ah ! La belle charge !</p>
+               </sp>
+               <sp who="#Iphicrate">
+                  <speaker>IPHICRATE.</speaker>
+                  <p>Moi, l'esclave de ce misérable !</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN.</speaker>
+                  <p>Il a bien été le vôtre.</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p>Hélas ! Il n'a qu'à être bien obéissant, j'aurai mille bontés pour lui.</p>
+               </sp>
+               <sp who="#Iphicrate">
+                  <speaker>IPHICRATE.</speaker>
+                  <p>Vous me donnez la liberté de lui dire ce qu'il me plaira ; ce n'est pas assez :
+                     qu'on m'accorde encore un bâton.</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p>Camarade, il demande à parler à mon dos, et je le mets sous la protection de la
+                     République, au moins.</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN.</speaker>
+                  <p>Ne craignez rien.</p>
+               </sp>
+               <sp who="#Cleanthis">
+                  <speaker>CLÉANTHIS,</speaker>
+                  <stage>à Trivelin.</stage>
+                  <p>Monsieur, je suis esclave aussi, moi, et du même vaisseau ; ne m'oubliez pas,
+                     s'il vous plaît.</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN.</speaker>
+                  <p>Non, ma belle enfant ; j'ai bien connu votre condition à votre habit, et
+                     j'allais vous parler de ce qui vous regarde, quand je l'ai vu l'épée à la main.
+                     Laissez-moi achever ce que j'avais à dire. Arlequin !</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN,</speaker>
+                  <stage>croyant qu'on l'appelle.</stage>
+                  <p>Eh !... À propos, je m'appelle Iphicrate.</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN,</speaker>
+                  <stage>continuant.</stage>
+                  <p>Tâchez de vous calmer ; vous savez qui nous sommes, sans doute ?</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p>Oh ! Morbleu ! D'aimables gens.</p>
+               </sp>
+               <sp who="#Cleanthis">
+                  <speaker>CLÉANTHIS.</speaker>
+                  <p>Et raisonnables.</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN.</speaker>
+                  <p>Ne m'interrompez point, mes enfants. Je pense donc que vous savez qui nous
+                     sommes. Quand nos pères, irrités de la cruauté de leurs maîtres, quittèrent la
+                     Grèce et vinrent s'établir ici, dans le ressentiment des outrages qu'ils
+                     avaient reçus de leurs patrons, la première loi qu'ils y firent fut d'ôter la
+                     vie à tous les maîtres que le hasard ou le naufrage conduirait dans leur île,
+                     et conséquemment de rendre la liberté à tous les esclaves : la vengeance avait
+                     dicté cette loi ; vingt ans après, la raison l'abolit, et en dicta une plus
+                     douce. Nous ne nous vengeons plus de vous, nous vous corrigeons ; ce n'est plus
+                     votre vie que nous poursuivons, c'est la barbarie de vos cœurs que nous voulons
+                     détruire ; nous vous jetons dans l'esclavage pour vous rendre sensibles aux
+                     maux qu'on y éprouve ; nous vous humilions, afin que, nous trouvant superbes,
+                     vous vous reprochiez de l'avoir été. Votre esclavage, ou plutôt votre cours
+                     d'humanité, dure trois ans, au bout desquels on vous renvoie, si vos maîtres
+                     sont contents de vos progrès ; et si vous ne devenez pas meilleurs, nous vous
+                     retenons par charité pour les nouveaux malheureux que vous iriez faire encore
+                     ailleurs, et par bonté pour vous, nous vous marions avec une de nos citoyennes.
+                     Ce sont là nos lois à cet égard ; mettez à profit leur rigueur salutaire,
+                     remerciez le sort qui vous conduit ici, il vous remet en nos mains, durs,
+                     injustes et superbes ; vous voilà en mauvais état, nous entreprenons de vous
+                     guérir ; vous êtes moins nos esclaves que nos malades, et nous ne prenons que
+                     trois ans pour vous rendre sains, c'est-à-dire humains, raisonnables et
+                     généreux pour toute votre vie.</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p>Et le tout gratis, sans purgation ni saignée. Peut-on de la santé à meilleur
+                     compte ?</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN.</speaker>
+                  <p>Au reste, ne cherchez point à vous sauver de ces lieux, vous le tenteriez sans
+                     succès, et vous feriez votre fortune plus mauvaise : commencez votre nouveau
+                     régime de vie par la patience.</p>
+               </sp>
+               <sp who="#Arlequin">
+                  <speaker>ARLEQUIN.</speaker>
+                  <p>Dès que c'est pour son bien, qu'y a-t-il à dire ?</p>
+               </sp>
+               <sp who="#Trivelin">
+                  <speaker>TRIVELIN,</speaker>
+                  <stage>aux esclaves.</stage>
+                  <p>Quant à vous, mes enfants, qui devenez libres et citoyens, Iphicrate habitera
+                     cette case avec le nouvel Arlequin, et cette belle fille demeurera dans l'autre
+                     ; vous aurez soin de changer d'habit ensemble, c'est l'ordre. À Arlequin.
+                     Passez maintenant dans une maison qui est à côté, où l'on vous donnera à manger
+                     si vous en avez besoin. Je vous apprends, au reste, que vous avez huit jours à
+                     vous réjouir du changement de votre état ; après quoi l'on vous donnera, comme
+                     à tout le monde, une occupation convenable. Allez, je vous attends ici. Aux
+                     insulaires. Qu'on les conduise. Aux femmes. Et vous autres, restez.</p>
+                  <stage>Arlequin, en s'en allant, fait de grandes révérences à Cléanthis.</stage>
+               </sp>
+            </div>
+            <div type="scene" n="3"/>
+            <div type="scene" n="4"/>
+            <div type="scene" n="5"/>
+            <div type="scene" n="6"/>
+            <div type="scene" n="7"/>
+            <div type="scene" n="8"/>
+            <div type="scene" n="9"/>
+         </div>
+      </body>
+   </text>
+</TEI>

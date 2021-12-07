@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/odd_VH.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<!-- Pour voir les différentes manières de faire la decription de la source et les index, cf. https://github.com/ArianePinche/coursTNAH_XML-TEI/blob/master/seance05/Corr_VH1.xml. -->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Notre-Dame de Paris, 1482.</title>
+            <author>Hugo, Victor</author>
+            <editor role="editeur scientifique">Meurice, Paul</editor>
+            <respStmt>
+               <resp>Encodage réalisé dans le cadre du cours Édition électronique du master
+                  Humanités numériques de Rennes 2.</resp>
+               <persName>
+                  <forename>Gwenaëlle</forename>
+                  <surname>Patat</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <!-- Description de la source du texte à encoder. -->
+            <publisher>Librairie Ollendorff</publisher>
+            <pubPlace>Paris</pubPlace>
+            <date when-iso="1904">1904</date>
+            <distributor facs="https://fr.wikisource.org/wiki/Notre-Dame_de_Paris/Texte_entier"
+               >Wikisource</distributor>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">Licence
+                  Creative Commons Attribution-partage dans les mêmes conditions</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <!-- Description de la source manuscrite/physique. Contextualisation du texte selon son emplacement dans la source. -->
+            <bibl>
+               <title type="main">Œuvres complètes de Victor Hugo. Roman.</title>
+               <title type="subtitle">Notre-Dame de Paris</title>
+               <author>
+                  <forename>Victor</forename>
+                  <surname>Hugo</surname>
+               </author>
+               <editor>Meurice, Paul</editor>
+               <publisher>Librairie Ollendorff</publisher>
+               <distributor facs="https://fr.wikisource.org/wiki/Notre-Dame_de_Paris/Texte_entier"
+                  >Wikisource</distributor>
+               <pubPlace>Paris</pubPlace>
+               <date>1904</date>
+               <biblScope unit="tome" n="2"/>
+               <biblScope unit="section" from="3" to="9">Livres 3 à 9</biblScope>
+               <biblScope unit="page" from="85" to="311">pp.85-311</biblScope>
+               <availability>
+                  <licence>Domaine public</licence>
+               </availability>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <!-- Pour établir les index, consulter les notices d'autorité (Wikidata, data.bnf, Viaf, ...), si possible. -->
+      <profileDesc>
+         <settingDesc>
+            <listPlace>
+               <place>
+                  <placeName xml:id="Notre-Dame">Cathédrale Notre-Dame de Paris</placeName>
+                  <location>
+                     <country>France</country>
+                     <settlement>Paris</settlement>
+                     <geo>48°51'11"N, 2°20'59"E</geo>
+                  </location>
+                  <idno type="VIAF">158363947</idno>
+               </place>
+            </listPlace>
+         </settingDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName xml:id="Charlemagne" type="personnage-historique">Charlemagne</persName>
+                  <birth when="0742">2 avril 742</birth>
+                  <death when="0814">28 janvier 814</death>
+                  <occupation>Roi des Francs de 768 à 814. - empereur d'Occident de 800 à 814.</occupation>
+                  <idno type="ISNI">0000 0001 2143 0569</idno>
+               </person>
+               <person>
+                  <persName xml:id="Philippe-Auguste" type="personnage-historique">Philippe II</persName>
+                  <birth when="1165">21 août 1165</birth>
+                  <death when="1223">14 juillet 1223</death>
+                  <occupation>Roi de France de 1180 à 1223.</occupation>
+                  <idno type="ISNI">0000 0001 0652 839X</idno>
+               </person>
+               <person>
+               <persName xml:id="Gutenberg" type="personnage-historique">Gutenberg</persName>
+               <death when="1468">1468</death>
+                  <note>Inventeur de l'imprimerie.</note>
+                  <idno type="ISNI">0000 0001 2120 0528</idno>
+               </person>
+               <person>
+                  <persName xml:id="Quasimodo" type="personnage-fictif">Quasimodo</persName>
+                  <idno></idno>
+               </person>
+               <person>
+                  <persName xml:id="Esmeralda" type="personnage-fictif">Esmeralda</persName>
+                  <idno></idno>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="book" n="1"/>
+         <div type="book" n="2"/>
+         <div type="book" n="3">
+            <div type="chapter" n="1">
+               <head>NOTRE-DAME.</head>
+               <p>Sans doute c’est encore aujourd’hui un majestueux et sublime édifice que <placeName ref="#Notre-Dame">l’église
+                  de Notre-Dame de Paris</placeName>. Mais, si belle qu’elle se soit conservée en vieillissant,
+                  il est difficile de ne pas soupirer, de ne pas s’indigner devant les dégradations,
+                  les mutilations sans nombre que simultanément le temps et les hommes ont fait
+                  subir au vénérable monument, sans respect pour <persName ref="#Charlemagne">Charlemagne</persName> qui en avait posé la
+                  première pierre, pour <persName ref="#Philippe-Auguste">Philippe-Auguste</persName> qui en avait posé la dernière.</p>
+               <p>Sur la face de cette vieille reine de nos cathédrales, à côté d’une ride on trouve
+                  toujours une cicatrice. <foreign xml:lang="la">Tempus edax, homo edacior.</foreign> Ce que je traduirais volontiers
+                  ainsi : le temps est aveugle, l’homme est stupide.</p>
+               <p>Si nous avions le loisir d’examiner une à une avec le lecteur les diverses traces
+                  de destruction imprimées à <placeName ref="#Notre-Dame">l’antique église</placeName>, la part du temps serait la moindre,
+                  la pire celle des hommes, surtout des hommes de l’art. Il faut bien que je
+                  dise des hommes de l’art, puisqu’il y a eu des individus qui ont pris la qualité
+                  d’architectes dans les deux siècles derniers.</p>
+               <p>Et d’abord, pour ne citer que quelques exemples capitaux, il est, à coup sûr, peu
+                  de plus belles pages architecturales que cette façade où, successivement et à la
+                  fois, les trois portails creusés en ogive, le cordon brodé et dentelé des
+                  vingt-huit niches royales, l’immense rosace centrale flanquée de ses deux fenêtres
+                  latérales comme le prêtre du diacre et du sous-diacre, la haute et frêle galerie
+                  d’arcades à trèfle qui porte une lourde plate-forme sur ses fines colonnettes,
+                  enfin les deux noires et massives tours avec leurs auvents d’ardoise, parties
+                  harmonieuses d’un tout magnifique, superposées en cinq étages gigantesques, se
+                  développent à l’œil, en foule et sans trouble, avec leurs innombrables détails de
+                  statuaire, de sculpture et de ciselure, ralliés puissamment à la tranquille
+                  grandeur de l’ensemble ; vaste symphonie en pierre, pour ainsi dire ; œuvre
+                  colossale d’un homme et d’un peuple, tout ensemble une et complexe comme les
+                  Iliades et les Romanceros dont elle est sœur ; produit prodigieux de la cotisation
+                  de toutes les forces d’une époque, où sur chaque pierre on voit saillir en cent
+                  façons la fantaisie de l’ouvrier disciplinée par le génie de l’artiste ; sorte de
+                  création humaine, en un mot, puissante et féconde comme la création divine dont
+                  elle semble avoir dérobé le double caractère : variété, éternité. […].</p>
+               <p>[…].</p>
+            </div>
+         </div>
+         <div type="book" n="4"/>
+         <div type="book" n="5">
+            <div type="chapter" n="2">
+               <head>CECI TUERA CELA.</head>
+               <p>Au quinzième siècle tout change.</p>
+               <p>La pensée humaine découvre un moyen de se perpétuer non seulement plus durable et
+                  plus résistant que l’architecture, mais encore plus simple et plus facile.
+                  L’architecture est détrônée. Aux lettres de pierre d’Orphée vont succéder les
+                  lettres de plomb de <persName ref="#Gutenberg">Gutenberg</persName>.</p>
+               <p>Le livre va tuer l’édifice.</p>
+               <p>L’invention de l’imprimerie est le plus grand événement de l’histoire. C’est la
+                  révolution mère. C’est le mode d’expression de l’humanité qui se renouvelle
+                  totalement, c’est la pensée humaine qui dépouille une forme et en revêt une autre,
+                  c’est le complet et définitif changement de peau de ce serpent symbolique qui,
+                  depuis Adam, représente l’intelligence.</p>
+               <p>Sous la forme imprimerie, la pensée est plus impérissable que jamais ; elle est
+                  volatile, insaisissable, indestructible. Elle se mêle à l’air. Du temps de
+                  l’architecture, elle se faisait montagne et s’emparait puissamment d’un siècle et
+                  d’un lieu. Maintenant elle se fait troupe d’oiseaux, s’éparpille aux quatre vents,
+                  et occupe à la fois tous les points de l’air et de l’espace. […]</p>
+            </div>
+         </div>
+         <div type="book" n="6"/>
+         <div type="book" n="7"/>
+         <div type="book" n="8"/>
+         <div type="book" n="9">
+            <div type="chapter" n="3">
+               <head>SOURD.</head>
+               <p>Alors elle s’accroupit gracieusement sur sa couchette avec sa chèvre endormie à
+                  ses pieds. Tous deux restèrent quelques instants immobiles, considérant en
+                  silence, lui tant de grâce, elle tant de laideur. À chaque moment, elle découvrait
+                  en <persName ref="#Quasimodo">Quasimodo</persName> quelque difformité de plus. Son regard se promenait des genoux
+                  cagneux au dos bossu, du dos bossu à l’œil unique. Elle ne pouvait comprendre
+                  qu’un être si gauchement ébauché existât. Cependant il y avait sur tout cela tant
+                  de tristesse et de douceur répandues qu’elle commençait à s’y faire.</p>
+               <p>Il rompit le premier ce silence. <said who="#Quasimodo">— Vous me disiez donc de revenir ?</said></p>
+               <p>Elle fit un signe de tête affirmatif, en disant : <said who="#Esmeralda">— Oui.</said></p>
+               <p>Il comprit le signe de tête. <said who="#Quasimodo">— Hélas ! dit-il comme hésitant à achever, c’est que…
+                  je suis sourd.</said></p>
+               <p><said who="#Esmeralda">— Pauvre homme !</said> s’écria <persName ref="#Esmeralda">la bohémienne</persName> avec une expression de bienveillante
+                  pitié.</p>
+               <p>Il se mit à sourire douloureusement. <said who="#Quasimodo">— Vous trouvez qu’il ne me manquait que cela,
+                  n’est-ce pas ? Oui, je suis sourd. C’est comme cela que je suis fait. C’est
+                  horrible, n’est-il pas vrai ? Vous êtes si belle, vous !</said></p>
+               <p>Il y avait dans l’accent du <persName ref="#Quasimodo">misérable</persName> un sentiment si profond de sa misère qu’elle
+                  n’eut pas la force de dire une parole. D’ailleurs il ne l’aurait pas entendue. Il
+                  poursuivit.</p>
+               <p><said who="#Quasimodo">— Jamais je n’ai vu ma laideur comme à présent. Quand je me compare à vous, j’ai
+                  bien pitié de moi, pauvre malheureux monstre que je suis ! Je dois vous faire
+                  l’effet d’une bête, dites. — Vous, vous êtes un rayon de soleil, une goutte de
+                  rosée, un chant d’oiseau ! — Moi, je suis quelque chose d’affreux, ni homme, ni
+                  animal, un je ne sais quoi plus dur, plus foulé aux pieds et plus difforme qu’un
+                  caillou !</said></p>
+               <p>Alors il se mit à rire, et ce rire était ce qu’il y a de plus déchirant au monde.
+                  Il continua :</p>
+               <p><said who="#Quasimodo">— Oui, je suis sourd. Mais vous me parlerez par gestes, par signes. J’ai un maître
+                  qui cause avec moi de cette façon. Et puis, je saurai bien vite votre volonté au
+                  mouvement de vos lèvres, à votre regard.</said></p>
+               <p><said who="#Esmeralda">— Eh bien ! reprit-elle en souriant, dites-moi pourquoi vous m’avez sauvée.</said></p>
+               <p>Il la regarda attentivement tandis qu’elle parlait.</p>
+               <p><said who="#Quasimodo">— J’ai compris, répondit-il. Vous me demandez pourquoi je vous ai sauvée. Vous
+                  avez oublié un misérable qui a tenté de vous enlever une nuit, un misérable à qui
+                  le lendemain même vous avez porté secours sur leur infâme pilori. Une goutte d’eau
+                  et un peu de pitié, voilà plus que je n’en paierai avec ma vie. Vous avez oublié
+                  ce misérable ; lui, il s’est souvenu.</said></p>
+               <p>Elle l’écoutait avec un attendrissement profond. Une larme roulait dans l’œil du
+                  sonneur, mais elle n’en tomba pas. Il parut mettre une sorte de point d’honneur à
+                  la dévorer.</p>
+               <p><said who="#Quasimodo">— Écoutez, reprit-il quand il ne craignit plus que cette larme s’échappât, nous
+                  avons là des tours bien hautes, un homme qui en tomberait serait mort avant de
+                  toucher le pavé ; quand il vous plaira que j’en tombe, vous n’aurez pas même un
+                  mot à dire, un coup d’œil suffira.</said></p>
+               <p>Alors il se leva. <persName ref="#Quasimodo">Cet être bizarre</persName>, si malheureuse que fût <persName ref="#Esmeralda">la bohémienne</persName>,
+                  éveillait encore quelque compassion en elle. Elle lui fit signe de rester.</p>
+               <p><said who="#Quasimodo">— Non, non, dit-il. Je ne dois pas rester trop longtemps. Je ne suis pas à mon
+                  aise quand vous me regardez. C’est par pitié que vous ne détournez pas les yeux.
+                  Je vais quelque part d’où je vous verrai sans que vous me voyiez. Ce sera
+                  mieux.</said></p>
+               <p><said who="#Quasimodo">Il tira de sa poche un petit sifflet de métal. — Tenez, dit-il, quand vous aurez
+                  besoin de moi, quand vous voudrez que je vienne, quand vous n’aurez pas trop
+                  d’horreur à me voir, vous sifflerez avec ceci. J’entends ce bruit-là.</said></p>
+               <p>Il déposa le sifflet à terre et s’enfuit.</p>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/odd_Heredia.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Bretagne</title>
+            <author>Heredia, José-Maria de</author>
+         </titleStmt>
+         <publicationStmt>
+            <!-- Description de la source du texte à encoder. -->
+            <distributor facs="https://www.poetica.fr/poeme-1495/jose-maria-de-heredia-bretagne/"
+               >Poetica</distributor>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">Licence
+                  Creative Commons Attribution-partage dans les mêmes conditions</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title type="main">Les Trophées</title>
+               <author>
+                  <forename>José-Maria de</forename>
+                  <surname>Heredia</surname>
+               </author>
+               <publisher>A. Lemerre</publisher>
+               <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k65694482">Bibliothèque
+                  nationale de France</distributor>
+               <pubPlace>Paris</pubPlace>
+               <date>1893</date>
+               <biblScope unit="volume" n="1"/>
+               <biblScope unit="section" n="10">LA NATURE ET LE RÊVE</biblScope>
+               <biblScope unit="poeme" n="7">Bretagne</biblScope>
+               <biblScope unit="page" n="140">p.140</biblScope>
+               <availability>
+                  <licence>Domaine public</licence>
+               </availability>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <lg type="sonnet">
+            <lg type="quatrain" n="1" rhyme="abba">
+               <l>Pour que le sang joyeux dompte l’esprit morose,</l>
+               <l> Il faut, tout parfumé du sel des goëmons,</l>
+               <l> Que le souffle atlantique emplisse tes poumons ;</l>
+               <l>Arvor t’offre ses caps que la mer blanche arrose.</l>
+            </lg>
+            <lg type="quatrain" n="2" rhyme="abba">
+               <l>L’ajonc fleurit et la bruyère est déjà rose.</l>
+               <l>La terre des vieux clans, des nains et des démons,</l>
+               <l> Ami, te garde encor, sur le granit des monts,</l>
+               <l>L’homme immobile auprès de l’immuable chose.</l>
+            </lg>
+            <lg type="sizain">
+               <lg type="tercet" n="1" rhyme="aab">
+                  <l>Viens. Partout tu verras, par les landes d’Arèz,</l>
+                  <l> Monter vers le ciel morne, infrangible cyprès, </l>
+                  <l>Le menhir sous lequel gît la cendre du Brave ;</l>
+               </lg>
+               <lg type="tercet" n="2" rhyme="aab">
+                  <l>Et l’Océan, qui roule en un lit d’algues d’or</l>
+                  <l>Is la voluptueuse et la grande Occismor,</l>
+                  <l>Bercera ton cour triste à son murmure grave.</l>
+               </lg>
+            </lg>
+         </lg>
+      </body>
+   </text>
+</TEI>
